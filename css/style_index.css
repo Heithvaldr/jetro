@@ -2,6 +2,10 @@
     font-family: Bebas; 
     src: url(../fonts/bebas.ttf);
 }
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../fonts/helvetica_neue.otf);
+}
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +20,7 @@ body {
 
 
 /*----HEADER----*/
+
 
 header {
     padding-top: 1%;
@@ -57,8 +62,68 @@ nav a:visited {
 
 /*----SLIDER----*/
 
+
 .slider {
     margin-top: 1.7%;
-    background-color: green;
-    height: 61vh;
+    height: 81vh;
+}
+
+
+
+/*----FEATURES----*/
+
+
+
+.features {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 4.2%;
+}
+.feature {
+    position: relative;  
+    width: 32%;
+}
+.feature img {
+    margin-left: 1%;
+    display: inline-block;
+}
+.features_title {
+    display: inline-block;
+    font-family: Bebas;
+    font-size: 2.75vh;
+    color: #e8663c;
+    vertical-align: top;
+    word-spacing: 0.3vh;
+}
+.connected .features_title {
+    margin-left: 3.5vh;
+}
+.work .features_title {
+    margin-left: 2.5vh;
+}
+.portfolio .features_title {
+    margin-left: 3vh;
+}
+.features_description {
+    margin-left: 0.5vh;
+    margin-top: 4.6vh;
+    line-height: 2.79vh;
+    font-family: HelveticaNeue;
+    font-size: 1.8vh;
+    color: #616161;
+    width: 90%;
+}
+.feature button {
+    margin: 6.8% 0 0 0.5%;
+    font-family: Bebas;
+    font-size: 1.8vh;
+    color: white;
+    background-color: #e8663c;
+    border: none;
+    height: 4.8vh;
+    width: 8.4vh;
+}
+.feature button p {
+    padding-right: 0.6vh;
+    padding-bottom: 0.4vh;
 }
