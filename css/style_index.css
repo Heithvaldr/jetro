@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Bebas; 
+    src: url(../fonts/bebas.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0 15.4% 0 16.4%;
+}
+
+
+
+/*----HEADER----*/
+
+header {
+    padding-top: 1%;
+    height: 8vh;
+    font-family: Bebas;
+    width: 100%;
+}
+.logo {
+    margin-right: 40%;    
+}
+.logo,nav {
+    display: inline-block;
+}
+.logo span {
+    color: #f3af9d;
+}
+.logo a {
+    font-size: 36px;
+    color: #e8603c;
+    text-decoration: none;
+}
+nav {
+    left: 0px;
+    width: 50%;
+    text-align: right;
+    vertical-align: 21%;
+}
+nav a {
+    padding-left: 26px;
+    text-decoration: none;
+    display: inline-block;
+    color: #b9b9b9;
+}
+nav a:visited {
+    color: #e8663c;
+}
+
+
+
+/*----SLIDER----*/
+
+.slider {
+    margin-top: 1.7%;
+    background-color: green;
+    height: 61vh;
+}
