@@ -78,6 +78,7 @@ nav a:visited {
     display: inline-flex;
     justify-content: space-between;
     margin-top: 4.2%;
+    margin-bottom: 4.4%;
 }
 .feature {
     position: relative;  
@@ -126,4 +127,63 @@ nav a:visited {
 .feature button p {
     padding-right: 0.6vh;
     padding-bottom: 0.4vh;
+}
+
+
+
+/*----RECENT WORKS----*/
+
+
+
+.title {
+    position: relative;
+    font-family: Bebas;
+    font-size: 2.75vh;
+    color: #e8663c;
+}
+.title p, .line {
+    display: inline-block;
+}
+.line {
+    position: absolute;
+    padding-top: 0.2vh;
+    right: 0;
+}
+.items {
+    padding-top: 3.5vh;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+.items:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+.item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1
+}
+.content {
+    margin-top: -1vh;
+    border: solid 2px #e9e9e9;
+    border-top: none;
+}
+.content p {
+    font-family: Bebas;
+    padding-left: 1.6vh;
+}
+.content p:first-child {
+    padding-top: 2vh;
+    padding-bottom: 0.5vh;
+    color: #bdbdbd;
+}
+.content p:last-child {
+    color: #e9704b;
+    font-weight: bold;
+    font-size: 1.6vh;
+    padding-bottom: 1.3vh;
 }
