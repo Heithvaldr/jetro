@@ -16,7 +16,9 @@ html, body {
 body {
     margin: 0 15.4% 0 16.4%;
 }
-
+section {
+    padding-bottom: 4.5vh;
+}
 
 
 /*----HEADER----*/
@@ -186,4 +188,60 @@ nav a:visited {
     font-weight: bold;
     font-size: 1.6vh;
     padding-bottom: 1.3vh;
+}
+
+
+
+/*----FOOTER----*/
+
+
+
+footer {
+    position: relative;
+    background-color: #e8663c;
+    color: white;
+    font-family: HelveticaNeue;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    padding: 5.5vh 6vh 2vh 5vh;
+}
+footer:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+.footer_title {
+    line-height: normal;
+    font-family: Bebas;
+    font-size: 3.1vh;
+    padding-bottom: 3.4vh
+}
+.container {
+    font-size: 1.8vh;
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    width: 40vh;
+    line-height: 2.3vh;
+}
+.about_jetro p:last-child {
+    padding-top: 2vh;
+}
+.info_jetro {
+    padding: 2vh 0 2vh 0;
+}
+.twitter_widget {
+    width: 33vh;
+}
+.container span, .timing {
+    color: #f2ad97;
+}
+.timing {
+    padding: 1vh 0 2.3vh 0;
+}
+.twitter_widget p:last-child {
+    padding-top: 1vh;
 }
