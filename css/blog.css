@@ -4,6 +4,115 @@
 section {
     padding-top: 23px;
 }
-.blog {
-
+.post {
+    padding-top: 18px;
+}
+.left_side_text, .right_side_text {
+    display: inline-block;
+    vertical-align: top; 
+}
+.left_side_text {
+    width: 110px;
+}
+.right_side_text {
+    padding-left: 32px;
+    width: 495px;}
+.right_side_text .red_bebas {
+    font-size: 17px;
+    word-spacing: 2px;
+    letter-spacing: 0.2px;
+    padding-bottom: 20px;
+}
+.red_bebas {
+    font-weight: 500;
+    font-family: Bebas;
+    color: #e8603c;
+}
+.first_par, .second_par {
+    line-height: 17px;
+}
+.blog_line {
+    padding: 45px 0 51px 0;
+}
+.third_post .blog_line {
+    padding-bottom: 43px;
+}
+.light_grey {
+    padding: 4px 0 11px 0;
+    position: relative;
+    width: 100%;
+    color: #cfcfcf;
+    font-weight: 100;
+    font-size: 12px;
+    font-family: HelveticaNeue;
+}
+.pseudo::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: -83px;
+    background-color: #e8603c;
+    width: 74px;
+    height: 74px;
+}
+.fourth_post {
+    max-width: 640px;
+    text-align: center;
+}
+.first_post::before {
+    content: '';
+    background-image: url(../images/blog/gadgets.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.second_post::before {
+    content: '';
+    background-image: url(../images/blog/file.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.third_post::before {
+    content: '';
+    background-image: url(../images/blog/play.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fourth_post::before {
+    content: '';
+    background-image: url(../images/blog/white_quotes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fifth_post::before {
+    content: '';
+    background-image: url(../images/blog/chains.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.citation {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    letter-spacing: 0.4px;
+    word-spacing: 0.5px;
+    font-size: 12px;
+    padding-top: 1px;
+    padding-left: 15px;
+    line-height: 18px;
+    color: #474747;
+    display: inline-block;
+    text-align: left;
+    max-width: 540px;
+    font-family: HelveticaNeueItalic;
+}
+blockquote {
+    height: 74px;
+    background-color: #f4f4f4;
+    color: #e8603c;
+}
+blockquote img {
+    padding-left: 10px;
+    vertical-align: middle;
 }
