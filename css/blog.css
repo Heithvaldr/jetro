@@ -1,5 +1,5 @@
 .footer_wrapper {
-    max-height: 2252px;
+    max-height: 2412px;
 }
 section {
     padding-top: 23px;
@@ -17,7 +17,7 @@ section {
 .right_side_text {
     padding-left: 32px;
     width: 495px;}
-.right_side_text .red_bebas {
+.post_title {
     font-size: 17px;
     word-spacing: 2px;
     letter-spacing: 0.2px;
@@ -115,4 +115,33 @@ blockquote {
 blockquote img {
     padding-left: 10px;
     vertical-align: middle;
+}
+.fourth_post .blog_line {
+    padding: 50px 0 41px 0;
+} 
+.link {
+    color: #c4c4c4;
+    width: 100%;
+    padding: 0 0 22px 4px;
+}
+.fifth_post .post_title {
+    padding: 3px 0 8px 2px;
+}
+.last_par {
+    padding-left: 3px;
+}
+.fifth_post .blog_line {
+    padding: 45px 0 38px 0;
+}
+.switchers {
+    padding: 0 0 15px 3px;
+}
+.switchers button {
+    font-family: Bebas;
+    font-size: 14px;
+    color: white;
+    height: 26px;
+    width: 26px;
+    background-color: #e8663c;
+    border: solid 1px #f0997d;
 }
